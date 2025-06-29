@@ -9,7 +9,7 @@
 
 // All values must be passed in/ cast as int64_t. They get cast back to the original type within the VM.
 // E.g if you want to pass in a memory address you cast it to a int64_t
-// All memory operations are using masm syntax, ie derefence is implied by mov.
+// All memory operations are using masm syntax, i.e dereference is implied by mov.
 std::vector<int64_t> bytecode = {
 
 #define STRING_BASE RAX
